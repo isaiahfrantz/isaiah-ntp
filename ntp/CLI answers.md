@@ -5,6 +5,7 @@
   unchanged,2018-04-06 16:35:40,PX,false,,devspsr130.unix.sample.org
   ```
 1. Extract sorted host names from csv data
+
   a. FQDN
     ```
     awk -F, '{print $NF}' sample2-candidate-data.csv|sort
@@ -13,6 +14,7 @@
     ```
     cut -d, -f6 sample2-candidate-data.csv|sort
     ```
+    or
     ```
     perl -ne 'printf("%s", (split(/,/,$_))[-1])' sample2-candidate-data.csv|sort
     ```
@@ -30,6 +32,7 @@
     ```
 
 2. Split hosts in to files based on data center location
+
   a. PX
     ```
     grep PX sample2-candidate-data.csv > PX_hosts.csv
