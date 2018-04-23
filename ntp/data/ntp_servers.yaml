@@ -1,0 +1,4 @@
+---
+ntp::server::common: "127.127.1.0"
+ntp::server::dcTT: "2.2.2.2 iburst"
+ntp::server::dcPX: "1.1.1.1 iburst"

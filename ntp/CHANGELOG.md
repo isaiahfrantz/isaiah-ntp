@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 04/22/2018 Initial implimentation
 ## Release 0.1.1
 04/22/2018 moved static ntp.conf to a template to support dynamic config values
+## Release 0.1.2
+04/22/2018 added hiera lookups to set ntp servers based on host location
+
 
 **Features**
  * install current version of ntp package in configured repo

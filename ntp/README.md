@@ -21,7 +21,8 @@ Install, configure, and run ntp client on a RHEL 5|6 host
 
 ### Beginning with ntp
 
-To use this module, ensure that the variables defined in the module and the format of templates/etc_ntp.conf.erb are correct for your hosts
+To use this module, ensure that the values defined in data/ntp_servers.yaml and the format of templates/etc_ntp.conf.erb are correct for your hosts
+Data for this module comes from module local hiera data
 
 ## Usage
 

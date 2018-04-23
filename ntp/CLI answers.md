@@ -18,3 +18,4 @@
     * `grep PX sample2-candidate-data.csv > PX_hosts.csv`
     * `grep TT sample2-candidate-data.csv > TT_hosts.csv`
     
+3. I cant think of a good reason to manage a separate copy of a config for each host instead of a template. Most hosts will have very similar or identical configs based on their function or location so templates can help reduce redundancy. Also, templates make it really easy to make sweeping changes that can reduce the chance of error that the manual editing of multiple config can result in.

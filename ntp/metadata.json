@@ -4,8 +4,8 @@
   "author": "isaiah",
   "summary": "Manages ntp service on RHEL hosts",
   "license": "Apache-2.0",
-  "source": "https://github.com/isaiahfrantz/isaiah-ntp",
-  "project_page": "https://github.com/isaiahfrantz/isaiah-ntp",
+  "source": "https://github.com/isaiahfrantz/isaiah-ntp/ntp",
+  "project_page": "https://github.com/isaiahfrantz/isaiah-ntp/ntp",
   "dependencies": [
 
   ],
