@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 04/22/2018 moved static ntp.conf to a template to support dynamic config values
 ## Release 0.1.2
 04/22/2018 added hiera lookups to set ntp servers based on host location
-
+*NOTE* Currently using the prod heira.yaml config & data, may want to define some test specific data in teh future
 
 **Features**
  * install current version of ntp package in configured repo

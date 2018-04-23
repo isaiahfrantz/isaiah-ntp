@@ -1,8 +1,12 @@
 ---
 version: 5
 hierarchy:
-  - name: "Data Center values"
+  - name: "data center specific ntp server values"
     path: "ntp_servers.yaml"
+  - name: "list of hosts in the PX data center"
+    path: "PX_hosts.yaml"
+  - name: "list of hosts in the TT data center"
+    path: "TT_hosts.yaml"
 defaults:
   data_hash: yaml_data
   datadir: data

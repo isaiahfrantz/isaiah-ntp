@@ -28,3 +28,8 @@ end
 RSpec.configure do |c|
   c.default_facts = default_facts
 end
+
+# need hiera look up for this module
+RSpec.configure do |c|
+  c.hiera_config = 'hiera.yaml'
+end
