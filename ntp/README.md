@@ -21,7 +21,7 @@ Install, configure, and run ntp client on a RHEL 5|6 host
 
 ### Beginning with ntp
 
-To use this module, ensure that the static config file located in files/etc_ntp.conf is correct for your hosts
+To use this module, ensure that the variables defined in the module and the format of templates/etc_ntp.conf.erb are correct for your hosts
 
 ## Usage
 
