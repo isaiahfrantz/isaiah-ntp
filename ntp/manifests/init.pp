@@ -10,7 +10,7 @@ class ntp {
     }
 
     # deploy ntp config, restart service if it changes
-    file {'/etc/ntpd.conf':
+    file {'/etc/ntp.conf':
         ensure => file,
         mode   => '0644',
         owner  => 'root',
